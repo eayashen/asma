@@ -8,6 +8,7 @@ df = pd.read_csv('data.csv')
 
 # Create the Dash App
 app = dash.Dash(__name__)
+server = app.server
 
 # Define the Layout with all components
 app.layout = html.Div([
